@@ -12,10 +12,14 @@ If you want to use it from the command line,
 (assuming calls from the create_mosaic.py directory)
 a possible command could be something like this:
 
+```
 python create_mosaic.py input/dir/path output/path.jpg --labels
+```
 
 Such command will create an image that represents the content of
 input/dir/path folder and puts folder names labels before each row.
 For the complete list of commands run:
 
+```
 python create_mosaic.py -h
+```
